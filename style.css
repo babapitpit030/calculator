@@ -3,4 +3,49 @@ body {
     display: flex;
     height: 100vh;
     background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator-body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background-color: #000000;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    
+}
+
+.output {
+
+    background-color: #cec7c7;
+    width: 280px;
+    height: 166px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #a5a5a5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 30px;
 }
